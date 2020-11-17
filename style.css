@@ -1778,10 +1778,10 @@ body {
     text-transform: uppercase;
     z-index: 99;
 }
-.course-page .single-item {margin-bottom: 70px;}
+.course-page .single-item {margin-bottom: 178px;}
 .course-page.shortcode .single-item {margin-bottom: 78px;}
 .course-page .col-md-4:nth-child(4) .single-item, .course-page .col-md-4:nth-child(5) .single-item , .course-page .col-md-4:nth-child(6) .single-item {
-    margin-bottom: 70px;
+    margin-bottom: 83px;
 }
 .course-page .pagination-content .pagination {margin-bottom: 0;}
 /*----------------------------------------*/
@@ -2689,22 +2689,42 @@ a div {
   list-style:disc;
 }
 
-.single-item-text-info ul {
-   margin-left:17px;
-   list-style:disc;
-}
-
 #owl-demo .item{
   margin: 3px;
+  overflow: hidden;
 }
 #owl-demo .item img{
   display: block;
   width: 320px;
   height: 230px;
   border-radius: 5px;
+
 }
 
 
+#owl-demo .item {
+  animation: slide 60s linear infinite;
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+#owl-demo .item img :hover {
+   -webkit-animation-play-state: paused;
+}
 
 
+.single-item-text-info{
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    direction:ltr;
+    text-align:left;
+}
 
+.single-item-text-info ul li::before {content: "• "; color: red}
