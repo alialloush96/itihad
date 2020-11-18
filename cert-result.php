@@ -239,10 +239,6 @@ require "./admin/include/config.php";
             <!--End of Search Category-->
 
 
-
-
-
-
             <!--Course Area Start-->
             <div class="course-area section-padding course-page">
                 <!--Teachers Area Start-->
