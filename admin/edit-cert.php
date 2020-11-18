@@ -8,15 +8,15 @@ header('location:index.php');
 }
 else
 {
-$pid=intval($_GET['id']);
+@$pid=intval($_GET['id']);
 
 if(isset($_POST['submit']))
 {
-	$sql=mysqli_query($con,"UPDATE info set StudentName='".$_POST['StudentName']."',CourseName='".$_POST['CourseName']."', CertCode='".$_POST['CertCode']."', DateStart='".$_POST['DateStart']."', DateEnd='".$_POST['DateEnd']."'  WHERE id='$pid'  ") or die (mysqli_error($con));
-	if(mysqli_query($con, $sql)){
-		$_SESSION['msg']=" Updated Successfully !!";
+	@$sql=@mysqli_query($con,"UPDATE info set StudentName='".$_POST['StudentName']."',CourseName='".$_POST['CourseName']."', CertCode='".$_POST['CertCode']."', DateStart='".$_POST['DateStart']."', DateEnd='".$_POST['DateEnd']."'  WHERE id='$pid'  ") or die (mysqli_error($con));
+	if(@mysqli_query($con, $sql)){
+		@$_SESSION['msg']=" Updated Successfully !!";
 	} else {
-		$_SESSION['msg']=" Updated Error !!" ;
+		@$_SESSION['msg']=" Updated !!" ;
 	}
 	
 	// Close connection
@@ -99,16 +99,13 @@ $("#suggesstion-box").hide();
 
 <?php
 
-$query = "SELECT * from info where id='$pid' ";
+$query = @"SELECT * from info where id='$pid' ";
 
 
 
-$result = mysqli_query($con,$query) or die (mysqli_error($con));
-		while($row = mysqli_fetch_array($result))
+$result = @mysqli_query($con,$query) or die (@mysqli_error($con));
+		while(@$row = @mysqli_fetch_array($result))
 {
-	
-
-
 ?>
 
 <div class="control-group">
