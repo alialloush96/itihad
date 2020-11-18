@@ -61,7 +61,7 @@ if(isset($_POST['submit']))
 <body style="background-color: #F1F1F1">
 
 <div class="navbar navbar-fixed-top" > 
-    <div class="navbar-inner" style="background-color: #12CCA7">
+    <div class="navbar-inner" style="background-color: #c0a25d">
         <div class="container">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
                 <i class="icon-reorder shaded"></i>

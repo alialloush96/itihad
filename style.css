@@ -984,7 +984,7 @@ body {
 .about-area {
     background: #1a1c20 no-repeat scroll center top;
     color: #ffffff;
-    margin-top: 140px;
+    margin-top: 40px;
     padding-bottom: 54px;
     position: relative;
 }
@@ -1818,6 +1818,7 @@ body {
     border-bottom: 3px solid #C0A25D;
     padding: 20px 26px 90px;
     text-align: center;
+    height: 150px;
 }
 .single-teacher-item:hover .single-teacher-text {
     margin-top: -45px;
@@ -2637,54 +2638,6 @@ span.c-text {display: inline-block;}
     font-size: 15px;
 }
 
-
-.gallery-container {
-	display: block;
-	max-width: 95%;
-	margin: 0 auto;
-	text-align: center;
-}
-.small-pic {
-	width: 270px;
-	height: auto;
-	position: relative;
-	margin: 3px;
-	border-radius: 5px;
-}
-.small-pic:hover {
-	-webkit-transform: scale(1.03, 1.03);
-	transform: scale(1.09, 1.09);
-}
-
-.lightbox {
-	display: none;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 1;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.8);
-}
-
-a div {
-	position: relative;
-	margin: auto auto;
-	text-align: center;
-}
-.lightbox:target {
-	display: -webkit-box;
-	display: flex;
-}
-.gallery_container a {
-	text-decoration: none;
-}
-.gallery-container p {
-	font-size: 20px;
-	color: white;
-	font-family: 'Poiret One';
-}
-
 .about-us ol {
   list-style:disc;
 }
@@ -2692,6 +2645,7 @@ a div {
 #owl-demo .item{
   margin: 3px;
   overflow: hidden;
+  animation: slide 60s linear infinite;
 }
 #owl-demo .item img{
   display: block;
@@ -2701,10 +2655,13 @@ a div {
 
 }
 
-
-#owl-demo .item {
-  animation: slide 60s linear infinite;
+.item:hover img 
+{
+ -moz-transform: scale(1.3);
+ -webkit-transform: scale(1.3);
+ transform: scale(1.3);
 }
+
 
 @keyframes slide{
   0%{
@@ -2714,17 +2671,17 @@ a div {
     transform: translate3d(-1692px, 0, 0);
   }
 }
-#owl-demo .item img :hover {
-   -webkit-animation-play-state: paused;
-}
 
 
 .single-item-text-info{
-    height: 150px;
+    height: 180px;
     overflow-x: hidden;
     overflow-y: auto;
     direction:ltr;
     text-align:left;
 }
 
-.single-item-text-info ul li::before {content: "• "; color: red}
+
+.single-item-text-info::-webkit-scrollbar {
+    display: none;
+}
