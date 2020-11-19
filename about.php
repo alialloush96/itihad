@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>About || Aletihad</title>
+        <title>About || Al Etihad</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
         
@@ -258,35 +258,35 @@
                     </div>
                 </div>
                 <!--End of Newsletter Area-->
-                
+
                 <!--Footer Widget Area Start-->
                 <div class="footer-widget-area">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-34 col-sm-4">
+                            <div class="col-md-4 col-sm-4">
                                 <div class="single-footer-widget">
                                     <div class="footer-logo">
                                         <a href="index.php"><img src="img/logo/footer.png" alt=""></a>
                                     </div>
-                                    <p>There are many variations of passg of Lorem Ipsum available, but thmajority have suffered altem, </p>
+                                    <p>We provide training and consultations<br>which is built according to the best scientific practices.</p>
                                     <div class="social-icons">
-                                            <a href="https://www.facebook.com/aletihad.educational"><i class="zmdi zmdi-facebook"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-whatsapp"></i></a>
-                                            <a href="https://instagram.com/aletihad_educational?igshid=1hwyjxbi70oq"><i class="zmdi zmdi-instagram"></i></a>
-                                            <a href="mailto:aletihad.training@gmail.com"><i class="zmdi zmdi-email"></i></a>
+                                        <a href="https://www.facebook.com/aletihad.educational"><i class="zmdi zmdi-facebook"></i></a>
+                                        <a href="https://wa.me/+965 51114096/?text=urlencodedtext"><i class="zmdi zmdi-whatsapp"></i></a>
+                                        <a href="https://instagram.com/aletihad_educational?igshid=1hwyjxbi70oq"><i class="zmdi zmdi-instagram"></i></a>
+                                        <a href="mailto:aletihad.training@gmail.com"><i class="zmdi zmdi-email"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-4">
                                 <div class="single-footer-widget">
                                     <h3>GET IN TOUCH</h3>
-                                    <a href="tel:555-555-1212"><i class="fa fa-phone"></i>555-555-1212</a>
-                                     <span><i class="fa fa-envelope"></i>aletihad.training@gmail.com</span>
-                                     <span><i class="fa fa-globe"></i>www.aletihad.com</span>
-                                     <span><i class="fa fa-map-marker"></i>ur address goes here,street.</span>
+                                    <a href="tel:555-555-1212"><i class="fa fa-phone"></i>+965 511 14096</a>
+                                    <span><i class="fa fa-envelope"></i>aletihad.training@gmail.com</span>
+                                    <span><i class="fa fa-globe"></i>www.aletihad.com</span>
+                                    <span><i class="fa fa-map-marker"></i>ur address goes here,street.</span>
                                 </div>
                             </div>
-                            
+
                             <div class="col-md-4 col-sm-4">
                                 <div class="single-footer-widget">
                                     <h3>Instagram</h3>
@@ -304,10 +304,10 @@
                                             <a href="#"><img src="img/footer/4.jpg" alt=""></a>
                                         </div>
                                         <div class="footer-img">
-                                            <a href="#"><img src="img/footer/5.jpg" alt=""></a>
+                                            <a href="#"><img src="img/footer/2.jpg" alt=""></a>
                                         </div>
                                         <div class="footer-img">
-                                            <a href="#"><img src="img/footer/6.jpg" alt=""></a>
+                                            <a href="#"><img src="img/footer/3.jpg" alt=""></a>
                                         </div>
                                     </div>
                                 </div>
@@ -317,11 +317,11 @@
                 </div>
                 <!--End of Footer Widget Area-->
                 <!--Footer Area Start-->
-                     <footer class="footer-area">
+                <footer class="footer-area">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 col-sm-7">
-                               <span>Copyright &copy; Designed By ReeHam &nbsp;<a href="mailto:reeham-d@hotmail.com">Email</a> </span>
+                                <span>Copyright &copy; Designed By Eng.  ReeHam Email: <a href="mailto:reeham-d@hotmail.com">reeham-d@hotmail.com</a> </span>
                             </div>
                         </div>
                     </div>

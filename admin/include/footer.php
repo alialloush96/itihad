@@ -14,7 +14,7 @@
 
 
         <footer>
-            <p class="container" style="color: white"> SVU-GROUP 2020 &copy; All Rights Reserved.</p>
+            <p class="container" style="color: white"> </p>
         </footer>
-			
+
 	

@@ -9,7 +9,7 @@ html, body{
 }
 
 body{
-	background:#7fcae8 url('../img/background.jpg') no-repeat;
+	background:#7fcae8  no-repeat;
 	background-size:cover;
 	background-attachment:fixed;
 	font: 300 16px 'Roboto', Helvetica, Arial, sans-serif;
@@ -494,7 +494,6 @@ li.purple .box-dropdown:after{
 .flag span{
 	width:19px;
 	height:12px;
-	background:url('../img/language-icons.png') no-repeat;
 	margin-right:5px;
 	display:block;
 }
@@ -1912,7 +1911,7 @@ input[type="checkbox"]:checked + label.color-checkbox{
 	-o-opacity:0;
 	transition:opacity 0.3s;
 	-webkit-transition:opacity 0.3s;
-	-moz-transition.:opacity 0.3s;
+	-moz-transition:opacity 0.3s;
 	-ms-transition:opacity 0.3s;
 	-o-transition:opacity 0.3s;
 }
@@ -1932,7 +1931,7 @@ input[type="checkbox"]:checked + label.color-checkbox{
 	-o-opacity:0;
 	transition:opacity 0.3s;
 	-webkit-transition:opacity 0.3s;
-	-moz-transition.:opacity 0.3s;
+	-moz-transition:opacity 0.3s;
 	-ms-transition:opacity 0.3s;
 	-o-transition:opacity 0.3s;
 }
@@ -2038,20 +2037,6 @@ input[type="checkbox"]:checked + label.color-checkbox{
 	margin-top:10px;
 }	
 
-.iosSlider .slider #item1 .image {
-	background: url(../img/slide1.jpg) right bottom no-repeat;
-}
-
-.iosSlider .slider #item2 .image {
-	background: url(../img/slide3.jpg) right bottom no-repeat
-}
-
-.iosSlider .slider #item3 .image {
-	background: url(../img/slide2.jpg) right bottom no-repeat;
-}
-
-
-
 
 
 /* ========================= */
@@ -2070,18 +2055,6 @@ input[type="checkbox"]:checked + label.color-checkbox{
 	background-size:auto 100%;
 	background-position:right bottom!important;
 	height:400px;
-}
-
-.flexsliderBig #slide1 {
-	background: url(../img/slide1.jpg) no-repeat;
-}
-
-.flexsliderBig #slide2 {
-	background: url(../img/slide3.jpg) no-repeat;
-}
-
-.flexsliderBig #slide3 {
-	background: url(../img/slide2.jpg) no-repeat;
 }
 
 .flexsliderBig strong{
@@ -4099,7 +4072,6 @@ table.coupon-table td.fit-cell{
 	display:block;
 	width:40px;
 	height:40px;
-	background:#ccc url('../img/social-icons.png') no-repeat;
 }
 
 
@@ -4279,7 +4251,6 @@ table.coupon-table td.fit-cell{
 	display:block;
 	width:40px;
 	height:25px;
-	background:url('../img/payment-icons.png') no-repeat;
 	transition:all 1s;
 	-webkit-transition:all 1s;
 	-moz-transition:all 1s;
@@ -4287,9 +4258,6 @@ table.coupon-table td.fit-cell{
 	-o-transition:all 1s;
 }
 
-.payment-list li:fisrt-child{
-	margin:0;
-}
 
 .payment-list li:hover{
 	transform:rotateX(360deg);

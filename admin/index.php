@@ -30,21 +30,6 @@ if(isset($_POST['submit']))
 }
 ?>
 
-<style>
-    .container{
-        font-family: Andalus;
-        font-weight: bold;
-        text-align: center;
-        
-        
-    }
-    footer{
-        margin-top:151px;
-        height:30px;
-        background-color: #1d1f21;
-    }
-</style>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -68,7 +53,7 @@ if(isset($_POST['submit']))
             </a>
 
             <a class="brand" href="..\index.php" >
-            Control panel
+            Al Etihad Website
             </a>
 
             <div class="nav-collapse collapse navbar-inverse-collapse">
@@ -80,13 +65,12 @@ if(isset($_POST['submit']))
 </div><!-- /navbar -->
 
 
-
 <div class="wrapper">
     <div class="container">
         <div class="row">
             <div class="module module-login span4 offset4">
                 <form class="form-vertical" method="post">
-                    <div class="module-head" style="background-color: #12cca7;">
+                    <div class="module-head" style="background-color: #C0A25D;">
                         <h3 style="color: white;">Sign In</h3>
                     </div>
                     <span style="color:red;" ><?php echo htmlentities($_SESSION['errmsg']); ?><?php echo htmlentities($_SESSION['errmsg']="");?></span>
@@ -105,7 +89,7 @@ if(isset($_POST['submit']))
                     <div class="module-foot">
                         <div class="control-group">
                             <div class="controls clearfix">
-                                <button type="submit" class="btn btn-primary pull-right" name="submit" style="background-color: #12cca7; color: white; border: none;">Login</button>
+                                <button type="submit" class="btn btn-primary pull-right" name="submit" style="background-color: #C0A25D; color: white; border: none;">Login</button>
 
                             </div>
                         </div>
@@ -114,13 +98,22 @@ if(isset($_POST['submit']))
             </div>
         </div>
     </div>
+    <!DOCTYPE HTML>
+    <html>
+    <head>
+
+    </head>
+    <body>
+    <div id="chartContainer" style="height: 270px; width: 870px;"></div>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    </body>
+    </html>
 </div><!--/.wrapper-->
 
 
+<?php
+include("include/footer.php");?>
 
-
-        
-			
 	
 <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
 <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>

@@ -17,7 +17,7 @@ button{
   padding: 10px 20px;
   border-radius:4px;
   color:white;
-  background: orangered;
+  background: #0a9ab8;
   margin-top:20px;
 }
 </style>
@@ -44,7 +44,7 @@ button{
 			<div class="span9">
 					<div class="content">
 
-	<div class="module" style="background: #12cca7; color: white;">
+	<div class="module">
 							<div class="module-head" style="background:#1f2228;">
 								<h3 style=" color: white;">Report</h3>
 							</div>
@@ -69,7 +69,7 @@ button{
 $cnt=1;
 while($row=mysqli_fetch_array($query))
 {
-?>									
+?>
 										<tr>
 											<td><?php echo htmlentities($cnt);?></td>
 											
@@ -78,13 +78,13 @@ while($row=mysqli_fetch_array($query))
 											<td> <?php echo htmlentities($row['CertCode']);?></td>
 											<td><?php echo htmlentities($row['DateStart']); ?></td>
 											<td><?php echo htmlentities($row['DateEnd']); ?></td>
-											
 
 
-										 ?></td>
+
+										</tr>
 											
 											
-										<?php $cnt=$cnt+1; } ?>
+										<?php $cnt=$cnt+1; }?>
 
 								</table>
                                     
@@ -98,9 +98,20 @@ while($row=mysqli_fetch_array($query))
                         <button onclick="tableToExcel('tbldata', 'Report_Certificate')">Export</button>
 						
 					</div><!--/.content-->
+
 				</div><!--/.span9-->
 			</div>
 		</div><!--/.container-->
+        <!DOCTYPE HTML>
+        <html>
+        <head>
+
+        </head>
+        <body>
+        <div id="chartContainer" style="height: 270px; width: 870px;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        </body>
+        </html>
 	</div><!--/.wrapper-->
 
 
@@ -132,6 +143,9 @@ var tableToExcel = (function() {
   }
 })()
 </script>
+
+<?php
+include("include/footer.php");?>
 
 </body>
 <?php } ?>

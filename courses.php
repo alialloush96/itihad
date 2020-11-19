@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" xmlns="http://www.w3.org/1999/html">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -210,27 +210,14 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Strategic planning program diploma</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                             <li>The purposes and benefits of strategic planning
-                                             <li>Methods and stages of strategic planning</li>
-                                             <li> Vision, mission and values</li>
-                                             <li>Preparing the strategic plan</li>
-                                             <li>Formulating strategic goals</li>
-                                             <li>Preparing programs and budgets</li>
-                                         </p>
-                                                  <div class="single-item-content">
-                                           <div class="single-item-comment-view">
-                                               <span><i class="zmdi zmdi-eye"></i>59</span>
-                                               <span><i class="zmdi zmdi-comments"></i>19</span>
-                                           </div>
-                                           <div class="single-item-rating">
-                                               <i class="zmdi zmdi-star"></i>
-                                               <i class="zmdi zmdi-star"></i>
-                                               <i class="zmdi zmdi-star"></i>
-                                               <i class="zmdi zmdi-star"></i>
-                                               <i class="zmdi zmdi-star-half"></i>
-                                           </div>
-                                        </div>
+                                         <span>
+                                             <p>The purposes and benefits of strategic planning</p>
+                                             <p>Methods and stages of strategic planning</p>
+                                             <p> Vision, mission and values</p>
+                                             <p>Preparing the strategic plan</p>
+                                             <p>Formulating strategic goals</p>
+                                             <p>Preparing programs and budgets</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
@@ -243,14 +230,14 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Google Apps Practitioner Diploma</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                            <li>Learn about Google applications</li>
-                                            <li>Application of the characteristics of Google applications in education</li>
-                                            <li>Create presentations and tables</li>
-                                            <li> Create websites</li>
-                                            <li>Create electronic tests</li>
-                                            <li>Advanced Training Diploma for Managers Qualifications</li>
-                                         </p>
+                                         <span>
+                                            <p>Learn about Google applications</p>
+                                            <p>Application of the characteristics of Google applications in education</p>
+                                            <p>Create presentations and tables</p>
+                                            <p> Create websites</p>
+                                            <p>Create electronic tests</p>
+                                            <p>Advanced Training Diploma for Managers Qualifications</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
@@ -263,13 +250,13 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Diploma in Active Learning Strategies Practitioner</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                             <li>Characteristics of the learner in the twenty-first century</li>
-                                             <li>The theoretical foundations of active learning</li>
-                                             <li> New roles of teacher and learner in active learning</li>
-                                             <li>The most important active learning strategies (20 strategies)</li>
-                                             <li>Applied lessons on active learning strategies</li>
-                                         </p>
+                                         <span>
+                                             <p>Characteristics of the learner in the twenty-first century</p>
+                                             <p>The theoretical foundations of active learning</p>
+                                             <p> New roles of teacher and learner in active learning</p>
+                                             <p>The most important active learning strategies (20 strategies)</p>
+                                             <p>Applied lessons on active learning strategies</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
@@ -282,13 +269,13 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Multiple Intelligence Practitioner Diplomar</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                             <li>Educational theories - the environment of multiple intelligences prepared</li>
-                                            <li>Multiple types of intelligences</li>
-                                            <li>The practical application to discover types of intelligences</li>
-                                            <li>Practical application to develop types of intelligences</li>
-                                            <li>Tools for the teacher and coach in the use of multiple intelligences</li>
-                                         </p>
+                                         <span>
+                                             <p>Educational theories - the environment of multiple intelligences prepared</p>
+                                            <p>Multiple types of intelligences</p>
+                                            <p>The practical application to discover types of intelligences</p>
+                                            <p>Practical application to develop types of intelligences</p>
+                                            <p>Tools for the teacher and coach in the use of multiple intelligences</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
@@ -301,16 +288,16 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Diploma in personal inspiration and couting</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                                <li>Coaching concept
-                                                <li> The basic rules of coaching</li>
-                                                <li> Technical competencies of the coach</li>
-                                                <li> The rules of coaching</li>
-                                                <li>Coaching tools</li>
-                                                <li>Stimulus</li>
-                                                <li>The management of change</li>
-                                                <li>Feedback</li>
-                                        </p>
+                                         <span>
+                                                <p>Coaching concept</p>
+                                                <p> The basic rules of coaching</p>
+                                                <p> Technical competencies of the coach</p>
+                                                <p> The rules of coaching</p>
+                                                <p>Coaching tools</p>
+                                                <p>Stimulus</p>
+                                                <p>The management of change</p>
+                                                <p>Feedback</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
@@ -323,13 +310,13 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Advanced speech skills program</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                                <li>resentation skills and the art of professional presentation</li>
-                                                <li>Learn influencing skills using feelings and the mind professionally</li>
-                                                <li>Organizing the displayed article</li>
-                                                <li>Use the power of sound to raise the level of impact</li>
-                                                <li>Body language in effective speech</li>
-                                         </p>
+                                         <span>
+                                                <p>resentation skills and the art of professional presentation</p>
+                                                <p>Learn influencing skills using feelings and the mind professionally</p>
+                                                <p>Organizing the displayed article</p>
+                                                <p>Use the power of sound to raise the level of impact</p>
+                                                <p>Body language in effective speech</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
@@ -342,17 +329,17 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Certified Professional Trainer Diploma CPT</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                                <li>After training service
-                                                <li>Effective training skills</li>
-                                                <li> Dynamic effective communication</li>
-                                                <li> Engineering creativity</li>
-                                                <li>Audience patterns</li>
-                                                <li>The strength of leading work teams</li>
-                                                <li> Resume design</li>
-                                                <li> Designing the training bag</li>
-                                                <li> Training budget and training revenues</li>
-                                         </p>
+                                         <span>
+                                                <p>After training service
+                                                <p>Effective training skills</p>
+                                                <p> Dynamic effective communication</p>
+                                                <p> Engineering creativity</p>
+                                                <p>Audience patterns</p>
+                                                <p>The strength of leading work teams</p>
+                                                <p> Resume design</p>
+                                                <p> Designing the training bag</p>
+                                                <p> Training budget and training revenues</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
@@ -365,13 +352,13 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Diploma in Institutional Innovation</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                                <li>Creativity and innovation</li>
-                                                <li> Managing creative teams</li>
-                                                <li> Institutional innovation tools</li>
-                                                <li> Idea generating list application for Bob Aprilel scamper</li>
-                                                <li> Implementing Creative Keys principles</li>
-                                         </p>
+                                         <span>
+                                                <p>Creativity and innovation</p>
+                                                <p> Managing creative teams</p>
+                                                <p> Institutional innovation tools</p>
+                                                <p> Idea generating list application for Bob Aprilel scamper</p>
+                                                <p> Implementing Creative Keys principles</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
@@ -384,12 +371,12 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Diploma in Administrative Creativity</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                              <li>The art of negotiation and influence</li>
-                                              <li>Solve problems in creative ways</li>
-                                              <li>Essential skills for a creative manager</li>
-                                              <li>Creativity and innovation ...... skills and applications</li>
-                                         </p>
+                                         <span>
+                                              <p>The art of negotiation and influence</p>
+                                              <p>Solve problems in creative ways</p>
+                                              <p>Essential skills for a creative manager</p>
+                                              <p>Creativity and innovation ...... skills and applications</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
@@ -404,14 +391,14 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Super Teacher Diploma&nbsp;</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                                 <li>Learning curve and how to get the highest results</li>
-                                                 <li>Strategies to solve students' boredom and grab their attention</li>
-                                                 <li>Managing the learning environment and the role of educational stimuli</li>
-                                                 <li>Educational games</li>
-                                                 <li>Effective classroom management</li>
-                                                 <li>Diploma in Educational Administration</li>
-                                         </p>
+                                         <span>
+                                                 <p>Learning curve and how to get the highest results</p>
+                                                 <p>Strategies to solve students' boredom and grab their attention</p>
+                                                 <p>Managing the learning environment and the role of educational stimuli</p>
+                                                 <p>Educational games</p>
+                                                 <p>Effective classroom management</p>
+                                                 <p>Diploma in Educational Administration</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
@@ -424,19 +411,19 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Diploma of electronic teacher</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                                <li>Distinguished practices in distance education</li>
-                                                <li>Create interactive lessons and video tutorials</li>
-                                                <li>Create educational stories using animation</li>
-                                                <li>Electronic tests</li>
-                                                <li>Applications of interest to the teacher</li>
-                                         </p>
+                                         <span>
+                                                <p>Distinguished practices in distance education</p>
+                                                <p>Create interactive lessons and video tutorials</p>
+                                                <p>Create educational stories using animation</p>
+                                                <p>Electronic tests</p>
+                                                <p>Applications of interest to the teacher</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
                         </div>          
 
-                                                  <div class="col-md-4 col-sm-6">
+                            <div class="col-md-4 col-sm-6">
                                 <div class="single-item">
                                     <div class="single-item-image overlay-effect">
                                         <a href="#"><img src="img/course/3.jpg" alt=""></a>
@@ -444,18 +431,18 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Training expert diploma</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                            <li>The art of designing training programs</li>
-                                            <li>The art of measuring the impact of training</li>
-                                            <li>Body language and influential delivery skills</li>
-                                            <li> Practical training on preparing the course</li>
-                                            <li> Choose the training major for the trainer</li>
-                                         </p>
+                                         <span>
+                                            <p>The art of designing training programs</p>
+                                            <p>The art of measuring the impact of training</p>
+                                            <p>Body language and influential delivery skills</p>
+                                            <p> Practical training on preparing the course</p>
+                                            <p> Choose the training major for the trainer</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
-                        </div> 
-                                                 <div class="col-md-4 col-sm-6">
+                        </div>
+                            <div class="col-md-4 col-sm-6">
                                 <div class="single-item">
                                     <div class="single-item-image overlay-effect">
                                         <a href="#"><img src="img/course/3.jpg" alt=""></a>
@@ -463,13 +450,13 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Training Consultant Diploma</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                             <li>Building the training curriculum</li>
-                                             <li>Training needs</li>
-                                             <li>Training methods</li>
-                                             <li>Evaluation before, during and after training</li>
-                                             <li>After training service</li>
-                                         </p>
+                                         <span>
+                                             <p>Building the training curriculum</p>
+                                             <p>Training needs</p>
+                                             <p>Training methods</p>
+                                             <p>Evaluation before, during and after training</p>
+                                             <p>After training service</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
@@ -482,13 +469,13 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Training expert diploma</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                            <li>The art of designing training programs</li>
-                                            <li>The art of measuring the impact of training</li>
-                                            <li>Body language and influential delivery skills</li>
-                                            <li> Practical training on preparing the course</li>
-                                            <li> Choose the training major for the trainer</li>
-                                         </p>
+                                         <span>
+                                            <p>The art of designing training programs</p>
+                                            <p>The art of measuring the impact of training</p>
+                                            <p>Body language and influential delivery skills</p>
+                                            <p> Practical training on preparing the course</p>
+                                            <p> Choose the training major for the trainer</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
@@ -502,18 +489,18 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Leadership Diploma</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                                 <li>Leadership and Impact, new secrets and dimensions</li>
-                                                 <li>Learn about the characters' styles and how to interact with them</li>
-                                                 <li>Methods of influence and persuasion according to personality styles</li>
-                                                 <li>Effective and fruitful communication with officials, individuals and colleagues</li>
-                                         </p>
+                                         <span>
+                                                 <p>Leadership and Impact, new secrets and dimensions</p>
+                                                 <p>Learn about the characters' styles and how to interact with them</p>
+                                                 <p>Methods of influence and persuasion according to personality styles</p>
+                                                 <p>Effective and fruitful communication with officials, individuals and colleagues</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
                         </div>
                             
-                                             <div class="col-md-4 col-sm-6">
+                            <div class="col-md-4 col-sm-6">
                                 <div class="single-item">
                                     <div class="single-item-image overlay-effect">
                                         <a href="#"><img src="img/course/3.jpg" alt=""></a>
@@ -521,27 +508,22 @@
                                     <div class="single-item-text">
                                         <h4><a href="#">Specialized educational trainer diploma</a></h4>
                                         <div class="single-item-text-info">
-                                         <p>
-                                             <li>Modern teaching methods</li>
-                                             <li>The most important electronic applications in modern education</li>
-                                             <li>Education with feelings</li>
-                                             <li>Training offers in teaching</li>
-                                             <li>Use of body language in educationr</li>
-                                         </p>
+                                         <span>
+                                             <p>Modern teaching methods</p>
+                                             <p>The most important electronic applications in modern education</p>
+                                             <p>Education with feelings</p>
+                                             <p>Training offers in teaching</p>
+                                             <p>Use of body language in educationr</p>
+                                         </span>
                                      </div>
                                 </div>
                             </div>
-                        </div>
- 
-                            
-                            
-                            
-                            
-                            
-                        </div>
+                         </div>
+
                     </div>
                 </div>
-                <!--End of Course Area-->
+            </div>
+            <!--End of Course Area-->
                 
                 <!--Newsletter Area Start-->
                 <div class="newsletter-area">
@@ -555,7 +537,7 @@
                     </div>
                 </div>
                 <!--End of Newsletter Area-->
-                
+
                 <!--Footer Widget Area Start-->
                 <div class="footer-widget-area">
                     <div class="container">
@@ -565,19 +547,19 @@
                                     <div class="footer-logo">
                                         <a href="index.php"><img src="img/logo/footer.png" alt=""></a>
                                     </div>
-                                    <p>There are many variations of passg of Lorem Ipsum available, but thmajority have suffered altem, </p>
+                                    <p>We provide training and consultations<br>which is built according to the best scientific practices.</p>
                                     <div class="social-icons">
-                                          <a href="https://www.facebook.com/aletihad.educational"><i class="zmdi zmdi-facebook"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-whatsapp"></i></a>
-                                            <a href="https://instagram.com/aletihad_educational?igshid=1hwyjxbi70oq"><i class="zmdi zmdi-instagram"></i></a>
-                                            <a href="mailto:aletihad.training@gmail.com"><i class="zmdi zmdi-email"></i></a>
+                                        <a href="https://www.facebook.com/aletihad.educational"><i class="zmdi zmdi-facebook"></i></a>
+                                        <a href="https://wa.me/+965 51114096/?text=urlencodedtext"><i class="zmdi zmdi-whatsapp"></i></a>
+                                        <a href="https://instagram.com/aletihad_educational?igshid=1hwyjxbi70oq"><i class="zmdi zmdi-instagram"></i></a>
+                                        <a href="mailto:aletihad.training@gmail.com"><i class="zmdi zmdi-email"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-4">
                                 <div class="single-footer-widget">
                                     <h3>GET IN TOUCH</h3>
-                                    <a href="tel:555-555-1212"><i class="fa fa-phone"></i>555-555-1212</a>
+                                    <a href="tel:555-555-1212"><i class="fa fa-phone"></i>+965 511 14096</a>
                                     <span><i class="fa fa-envelope"></i>aletihad.training@gmail.com</span>
                                     <span><i class="fa fa-globe"></i>www.aletihad.com</span>
                                     <span><i class="fa fa-map-marker"></i>ur address goes here,street.</span>
@@ -613,12 +595,11 @@
                     </div>
                 </div>
                 <!--End of Footer Widget Area-->
-                <!--Footer Area Start-->
                 <footer class="footer-area">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 col-sm-7">
-                               <span>Copyright &copy; Designed By ReeHam &nbsp;<a href="mailto:reeham-d@hotmail.com">Email</a> </span>
+                                <span>Copyright &copy; Designed By Eng.  ReeHam Email: <a href="mailto:reeham-d@hotmail.com">reeham-d@hotmail.com</a> </span>
                             </div>
                         </div>
                     </div>

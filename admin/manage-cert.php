@@ -17,50 +17,7 @@ if(isset($_GET['del']))
 		  }
 
 ?>
-    <!-- Export SQL -->
-    <?php
-//export.php
-/*
-    $connect = mysqli_connect("localhost", "root", "", "cert");
-    $output = '';
-    if(isset($_POST["export"]))
-    {
-        $query = "select products.*,category.categoryName,subcategory.subcategory from products join category on category.id=products.category join subcategory on subcategory.id=products.subCategory";
-        $result = mysqli_query($connect, $query);
-        if(mysqli_num_rows($result) > 0)
-        {
-            $output = '
-   <table class="table" bordered="1">  
-                    <tr>  
-                        <th>#</th>
-						<th>Product Name</th>
-						<th>Category </th>
-						<th>Subcategory</th>
-					    <th>Company Name</th>
-						<th>Product Creation Date</th>
-						
-                    </tr>
-  ';
-            while($row = mysqli_fetch_array($result))
-            {
-                $output = '
-                    <tr>  
-                         <td>'.$row["productName"].'</td>  
-                         <td>'.$row["categoryName"].'</td>  
-                         <td>'.$row["subcategory"].'</td>  
-                         <td>'.$row["productCompany"].'</td>  
-                         <td>'.$row["postingDate"].'</td>
-                    </tr>
-   ';
-            }
-            $output .= '</table>';
-            header('Content-Type: application/xls');
-            header('Content-Disposition: attachment; filename=Report.xls');
-            echo $output;
-        }
-	}
-	*/
-    ?>
+
 
 <style>
 button{
@@ -68,7 +25,7 @@ button{
   padding: 10px 20px;
   border-radius:4px;
   color:white;
-  background: orangered;
+  background: #0a9ab8;
   margin-top:20px;
   float: left;
 }
@@ -79,7 +36,7 @@ button{
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Admin| Manage Products</title>
+	<title>Admin| Manage Certificates</title>
 	<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
@@ -98,7 +55,7 @@ button{
 				
 					<div class="content">
 
-	<div class="module" style="background: #12cca7; color: white;">
+	<div class="module" style="background: #C0A25D color: white;">
 							<div class="module-head" style="background:#1f2228;">
 								<h3 style="color: white;">Manage Certificate</h3>
 							</div>
@@ -150,22 +107,23 @@ $result = mysqli_query($con,$query) or die (mysqli_error($con));
 												<?php $cnt=$cnt+1; } ?>
 										
 								</table>
-                                
- 
-							
-						
-                                
 
-                                
 							</div>
 						</div>
-
-
-                        
 					</div><!--/.content-->
 				</div><!--/.span9-->
 			</div>
 		</div><!--/.container-->
+        <!DOCTYPE HTML>
+        <html>
+        <head>
+
+        </head>
+        <body>
+        <div id="chartContainer" style="height: 270px; width: 870px;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        </body>
+        </html>
 	</div><!--/.wrapper-->
 
 
@@ -199,6 +157,9 @@ var tableToExcel = (function() {
   }
 })()
 </script>
+
+<?php
+include("include/footer.php");?>
 
 </body>
 <?php } ?>

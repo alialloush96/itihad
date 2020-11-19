@@ -36,7 +36,7 @@ if ($con->query($sql) === TRUE)
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Admin| Insert Product</title>
+	<title>Admin| Insert Certificate</title>
 	<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
@@ -79,7 +79,7 @@ $("#suggesstion-box").hide();
 					<div class="content">
 
 						<div class="module" >
-							<div class="module-head" style="background:#1f2228;">
+							<div class="module-head" style="background:#000033;">
 								<h3 style="color: white;">Insert Certificate</h3>
 							</div>
 							<div class="module-body">
@@ -132,7 +132,7 @@ $("#suggesstion-box").hide();
 <div class="control-group">
 <label class="control-label" for="basicinput">Date of Start</label>
 <div class="controls">
-<input type="text"    name="datestart"  placeholder="ex. 2010-01-08" class="span8 tip" required>
+<input type="text"    name="datestart"  placeholder="ex. 2020-11-08" class="span8 tip" required>
 </div>
 </div>
 <!-- #########################################################  -->
@@ -141,7 +141,7 @@ $("#suggesstion-box").hide();
 <div class="control-group">
 <label class="control-label" for="basicinput">Date of end</label>
 <div class="controls">
-<input type="text"    name="dateend"  placeholder="ex. 2010-02-18" class="span8 tip" required>
+<input type="text"    name="dateend"  placeholder="ex. 2021-2-18" class="span8 tip" required>
 </div>
 </div>
 <!-- #########################################################  -->
@@ -160,21 +160,29 @@ $("#suggesstion-box").hide();
 <!-- #########################################################  -->
 							<div class="control-group">
                             	<div class="controls">
-                                	<button type="submit" name="submit" style="background:orangered; color: white; float: left;" class="btn">Insert</button>
+                                	<button type="submit" name="submit" style="background: #0a9ab8; color: white; float: left;" class="btn">Insert</button>
                             	</div>
                         	</div>
 						</form>
 					</div>
 				</div>
 
-
-
-<!-- #########################################################  -->  
+                <!-- #########################################################  -->
 
 					</div><!--/.content-->
 				</div><!--/.span9-->
 			</div>
 		</div><!--/.container-->
+        <!DOCTYPE HTML>
+        <html>
+        <head>
+
+        </head>
+        <body>
+        <div id="chartContainer" style="height: 270px; width: 870px;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        </body>
+        </html>
 	</div><!--/.wrapper-->
 
 
@@ -196,5 +204,9 @@ $("#suggesstion-box").hide();
 			$('.dataTables_paginate > a:last-child').append('<i class="icon-chevron-right shaded"></i>');
 		} );
 	</script>
+
+<?php
+include("include/footer.php");?>
+
 </body>
 <?php } ?>

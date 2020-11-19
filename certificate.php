@@ -31,7 +31,7 @@ if(isset($_POST['check']))
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Certificate || Aletihad</title>
+        <title>Certificate || Al Etihad</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 
@@ -128,7 +128,7 @@ if(isset($_POST['check']))
                                   <div class="col-lg-5 col-md-6 col-sm-7 col-xs-12">
                                         <div class="header-top-right">
                                                 <div class="content">
-                                                    <a href="certificate.html"><i class="zmdi zmdi-account"></i>Check My Certificate</a>
+                                                    <a href="certificate.php"><i class="zmdi zmdi-account"></i>Check My Certificate</a>
                                                 </div>
                                                 <div class="content"><a href="#"><i class="fa fa-language"></i>العربية</a></div>
                                                 <div class="content"><a href="#">English</a></div>
@@ -154,7 +154,7 @@ if(isset($_POST['check']))
                                             <nav>
                                              <ul id="nav">
                                                   <ul id="nav">
-                                                    <li class="current"><a href="index.html">Home</a></li>
+                                                    <li class="current"><a href="index.php">Home</a></li>
                                                     <li><a href="#">Gallery</a> </li>
                                                     <li><a href="#">Courses</a> </li>
                                                     <li><a href="#">Teachers</a> </li>
@@ -258,17 +258,11 @@ if(isset($_POST['check']))
                 </div>
                 <!--End of Search Category-->
 
-
-
-
-
-
-                <!--Course Area Start-->
+                <!--Certificate Area Start-->
                 <div class="course-area section-padding course-page">
-                <!--Teachers Area Start-->
-                <div class="teachers-area">
                     <div class="container">
-                                                <div class="row">
+                        <div class="row">
+
                             <div class="col-md-12">
                                 <div class="section-title-wrapper">
                                     <div class="section-title">
@@ -278,15 +272,52 @@ if(isset($_POST['check']))
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
 
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+
+                                <table class="cert-info">
+                                        <th>Student Name</th>
+                                        <th>Course Name</th>
+                                        <th>Certificate Code</th>
+                                        <th>Date Start</th>
+                                        <th>Date End</th>
+
+
+                                    <?php
+
+                                    if(isset($_POST['check']))
+                                    {
+                                        $code = @$_POST['code'];
+                                        $sql = @"SELECT * FROM info WHERE CertCode = '$code' ";
+                                        $result = @mysqli_query($con,$sql);
+
+                                    }
+                                    while(@$row = @mysqli_fetch_array($result)) {
+                                        ?>
+                                        <tr>
+                                            <td><?php echo $row["StudentName"]; ?></td>
+                                            <td><?php echo $row["CourseName"]; ?></td>
+                                            <td><?php echo $row["CertCode"]; ?></td>
+                                            <td><?php echo $row["DateStart"]; ?></td>
+                                            <td><?php echo $row["DateEnd"]; ?></td>
+                                        </tr>
+                                        <?php
+                                    }
+                                    ?>
+
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!--End of Teachers Area-->
-             </div>
-                <!--End of Course Area-->
-
+                <!--End of certificate Area-->
+                <div class="teachers-area">
+                    <div class="container">
+                        <div class="row">
+                        </div>
+                    </div>
+                </div>
                 <!--Newsletter Area Start-->
                 <div class="newsletter-area">
                     <div class="container">
@@ -311,21 +342,21 @@ if(isset($_POST['check']))
                             <div class="col-md-4 col-sm-4">
                                 <div class="single-footer-widget">
                                     <div class="footer-logo">
-                                        <a href="index.html"><img src="img/logo/footer.png" alt=""></a>
+                                        <a href="index.php"><img src="img/logo/footer.png" alt=""></a>
                                     </div>
-                                    <p>There are many variations of passg of Lorem Ipsum available, but thmajority have suffered altem, </p>
+                                    <p>We provide training and consultations<br>which is built according to the best scientific practices.</p>
                                     <div class="social-icons">
-                                            <a href="https://www.facebook.com/aletihad.educational"><i class="zmdi  zmdi-facebook"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-whatsapp"></i></a>
-                                            <a href="https://instagram.com/aletihad_educational?igshid=1hwyjxbi70oq"><i class="zmdi zmdi-instagram"></i></a>
-                                            <a href="mailto:aletihad.training@gmail.com"><i class="zmdi zmdi-email"></i></a>
+                                        <a href="https://www.facebook.com/aletihad.educational"><i class="zmdi zmdi-facebook"></i></a>
+                                        <a href="https://wa.me/+965 51114096/?text=urlencodedtext"><i class="zmdi zmdi-whatsapp"></i></a>
+                                        <a href="https://instagram.com/aletihad_educational?igshid=1hwyjxbi70oq"><i class="zmdi zmdi-instagram"></i></a>
+                                        <a href="mailto:aletihad.training@gmail.com"><i class="zmdi zmdi-email"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-4">
                                 <div class="single-footer-widget">
                                     <h3>GET IN TOUCH</h3>
-                                    <a href="tel:555-555-1212"><i class="fa fa-phone"></i>555-555-1212</a>
+                                    <a href="tel:555-555-1212"><i class="fa fa-phone"></i>+965 511 14096</a>
                                     <span><i class="fa fa-envelope"></i>aletihad.training@gmail.com</span>
                                     <span><i class="fa fa-globe"></i>www.aletihad.com</span>
                                     <span><i class="fa fa-map-marker"></i>ur address goes here,street.</span>
@@ -349,10 +380,10 @@ if(isset($_POST['check']))
                                             <a href="#"><img src="img/footer/4.jpg" alt=""></a>
                                         </div>
                                         <div class="footer-img">
-                                            <a href="#"><img src="img/footer/5.jpg" alt=""></a>
+                                            <a href="#"><img src="img/footer/2.jpg" alt=""></a>
                                         </div>
                                         <div class="footer-img">
-                                            <a href="#"><img src="img/footer/6.jpg" alt=""></a>
+                                            <a href="#"><img src="img/footer/3.jpg" alt=""></a>
                                         </div>
                                     </div>
                                 </div>
@@ -361,12 +392,13 @@ if(isset($_POST['check']))
                     </div>
                 </div>
                 <!--End of Footer Widget Area-->
+
                 <!--Footer Area Start-->
-                     <footer class="footer-area">
+                <footer class="footer-area">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 col-sm-7">
-                              <span>Copyright &copy; Designed By ReeHam &nbsp;<a href="mailto:reeham-d@hotmail.com">Email</a> </span>
+                                <span>Copyright &copy; Designed By Eng.  ReeHam Email: <a href="mailto:reeham-d@hotmail.com">reeham-d@hotmail.com</a> </span>
                             </div>
                         </div>
                     </div>

@@ -71,7 +71,7 @@ else{
 <body>
 <?php include('include/header.php');?>
 
-<div class="wrapper" style=" background-color:whitesmoke;">
+<div class="wrapper">
     <div class="container">
         <div class="row">
             <?php include('include/sidebar.php');?>
@@ -79,9 +79,9 @@ else{
                 <div class="content" >
 
                     <div class="module">
-                        <div class="module-head" style=" background-color:#12cca7">
+                        <div class="module-head" style=" background-color:#000033">
                            
-                                <h3 style = "color:black;" > Admin Change Password</h3>
+                                <h3 style="color: white"> Admin Change Password</h3>
                             
                         </div>
                         <div class="module-body">
@@ -120,7 +120,7 @@ else{
                                 </div>
                                 <div class="control-group">
                                     <div class="controls">
-                                        <button type="submit" name="submit" class="btn" style="background-color: #12cca7; color: white;">Submit</button>
+                                        <button type="submit" name="submit" class="btn" style="background-color: #0a9ab8; color: white;">Submit</button>
                                     </div>
                                 </div>
                             </form>
@@ -128,26 +128,23 @@ else{
                     </div>
                 </div><!--/.content-->
                 <!-- *************************************** -->
-
-
-                <!DOCTYPE HTML>
-                <html>
-                <head>
-
-                </head>
-                <body>
-                <div id="chartContainer" style="height: 270px; width: 870px;"></div>
-                <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-                </body>
-                </html>
-                <!-- *************************************** -->
             </div><!--/.span9-->
         </div>
     </div><!--/.container-->
+    <!DOCTYPE HTML>
+    <html>
+    <head>
+
+    </head>
+    <body>
+    <div id="chartContainer" style="height: 270px; width: 870px;"></div>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    </body>
+    </html>
 </div><!--/.wrapper-->
 
 
-
+<?php include 'include/footer.php'; ?>
 
 <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
 <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
@@ -165,5 +162,10 @@ else{
         }
     }
 </script>
+
+
+<?php
+include("include/footer.php");?>
+
 </body>
 <?php } ?>

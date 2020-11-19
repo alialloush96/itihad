@@ -2039,7 +2039,7 @@ span.comment-time {padding-right: 3px; position: relative;}
     padding: 110px 0;
     position: relative;
 }
-.breadcrumb-banner-area.fixed-bg {background: url("img/slider/3.jpg") no-repeat fixed top center / cover}
+.breadcrumb-banner-area.fixed-bg {background: url("img/slider/4.jpg") no-repeat fixed top center / cover}
 .breadcrumb-banner-area.no-bg {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;}
 .breadcrumb-text {z-index: 9; position: relative;}
 .breadcrumb-banner-area:after {
@@ -2448,9 +2448,9 @@ span.c-text {display: inline-block;}
     overflow: hidden;
     position: relative;
 }
-.video-area {background: url("img/slider/5.jpg") no-repeat fixed top center / cover }
-.fixed-bg-1 {background: url("img/slider/1.jpg") no-repeat fixed top center / cover }
-.fixed-bg-2 {background: url("img/slider/2.jpg") no-repeat fixed top center / cover }
+.video-area {background: url("img/slider/4.jpg") no-repeat fixed top center / cover }
+.fixed-bg-1 {background: url("img/slider/4.jpg") no-repeat fixed top center / cover }
+.fixed-bg-2 {background: url("img/slider/4.jpg") no-repeat fixed top center / cover }
 .backgrount-area {position: relative}
 .hover-white.button-default:hover {background: #fff; color: #2E3F51 }
 .angle .mailchimp-alerts {padding-left: 150px} 
@@ -2559,7 +2559,7 @@ span.c-text {display: inline-block;}
 }
 .footer-widget-four .footer-list li a:hover {color: #1a1c20;}
 .footer-widget-four .footer-img a::before {
-    background: rgba(45, 62, 80, 0.9) none repeat scroll 0 0;
+    background: rgba(1, 1, 12, 0.9) none repeat scroll 0 0;
 }
 .footer-area.footer-four {background: #1a1c20;}
 .gallery-img, .gallery-img img {width: 100%}
@@ -2671,8 +2671,6 @@ span.c-text {display: inline-block;}
     transform: translate3d(-1692px, 0, 0);
   }
 }
-
-
 .single-item-text-info{
     height: 180px;
     overflow-x: hidden;
@@ -2680,8 +2678,39 @@ span.c-text {display: inline-block;}
     direction:ltr;
     text-align:left;
 }
-
-
+.single-item-text-info p:before {
+    content:"• ";
+}
 .single-item-text-info::-webkit-scrollbar {
     display: none;
+}
+
+.cert-info{
+    margin-top: -60px;
+    border-collapse: collapse;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+th {
+    background: #303139;
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 15px;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 15px;
+}
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+    table {
+        width: 100%;
+    }
 }

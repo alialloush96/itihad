@@ -153,39 +153,36 @@ $("#suggesstion-box").hide();
 </div>
 
 
-<?php 
-
-
+<?php
 } 
-
-
 
 ?>
 
-
-
-
-
 	<div class="control-group">
 										</div>
-									
-
-
 
 							</div>
 
 						</div>
                         <div class="controls">
-                            <button type="submit" name="submit" style="background:orangered; color: white; float: left;" class="btn">Update</button>
+                            <button type="submit" name="submit" style="background:#0a9ab8; color: white; float: left;" class="btn">Update</button>
                         </div>
 
 						</form>
-						
-						
 					</div><!--/.content-->
 				</div><!--/.span9-->
 			</div>
 		</div><!--/.container-->
+        <!DOCTYPE HTML>
+        <html>
+        <head>
+
+        </head>
+        <body>
+        <div id="chartContainer" style="height: 270px; width: 870px;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        </body>
+        </html>
 	</div><!--/.wrapper-->
 
 
@@ -204,5 +201,9 @@ $("#suggesstion-box").hide();
 			$('.dataTables_paginate > a:last-child').append('<i class="icon-chevron-right shaded"></i>');
 		} );
 	</script>
+
+<?php
+include("include/footer.php");?>
+
 </body>
 <?php } ?>
