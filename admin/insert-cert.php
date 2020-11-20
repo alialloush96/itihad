@@ -132,7 +132,7 @@ $("#suggesstion-box").hide();
 <div class="control-group">
 <label class="control-label" for="basicinput">Date of Start</label>
 <div class="controls">
-<input type="text"    name="datestart"  placeholder="ex. 2020-11-08" class="span8 tip" required>
+<input type="date"    name="datestart"  placeholder="ex. 2020-11-08" class="span8 tip" required>
 </div>
 </div>
 <!-- #########################################################  -->
@@ -141,7 +141,7 @@ $("#suggesstion-box").hide();
 <div class="control-group">
 <label class="control-label" for="basicinput">Date of end</label>
 <div class="controls">
-<input type="text"    name="dateend"  placeholder="ex. 2021-2-18" class="span8 tip" required>
+<input type="date"    name="dateend"  placeholder="ex. 2021-2-18" class="span8 tip" required>
 </div>
 </div>
 <!-- #########################################################  -->
