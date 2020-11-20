@@ -364,7 +364,7 @@
                             <div class="col-md-12">
                                 <div class="section-title-wrapper">
                                     <div class="section-title">
-                                        <h3>OUR TEACHERS</h3>
+                                        <h3>OUR TRAINERS</h3>
                                         <p>There are many teachers training in the center</p>
                                     </div>
                                 </div>
@@ -391,7 +391,7 @@
                                     <div class="single-teacher-text">
                                         <h3><a href="#">Nezar Al Refaie</a></h3>
                                         <p></p>
-                                        <h4>Teacher</h4>
+                                        <h4>Director Of Development</h4>
                                     </div>
                                 </div>
                             </div>
@@ -401,9 +401,9 @@
                                         <a href="#"><img src="img/teacher/l-2.jpg" alt=""></a>
                                     </div>
                                     <div class="single-teacher-text">
-                                        <h3><a href="#">Mohamd Khoros</a></h3>
+                                        <h3><a href="#">Mohammad AKhars</a></h3>
                                         <p></p>
-                                        <h4>Teacher</h4>
+                                        <h4>Trainer</h4>
                                     </div>
                                 </div>
                             </div>
@@ -416,7 +416,7 @@
                                     <div class="single-teacher-text">
                                         <h3><a href="#">Barakat Mohamad</a></h3>
                                         <p></p>
-                                        <h4>Teacher</h4>
+                                        <h4>Trainer</h4>
                                     </div>
                                 </div>
                             </div>
